@@ -1,3 +1,8 @@
+COMET
+=====
+This is the home of the COMET repository.  More instructions on how to get the
+source/build/operate to come.
+
 CyanogenMod
 ===========
 

@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com"
            review="review.cyanogenmod.com" />
 
   <remote  name="private"
@@ -14,6 +14,13 @@
   <default revision="refs/heads/jellybean"
            remote="github"
            sync-j="4" />
+
+  <project path="scripts" name="msg555/comet_scripts" />
+  <project path="vm_test" name="msg555/comet_vm_test" />
+  <project path="dalvik" name="msg555/comet_android_dalvik" />
+  <project path="libcore" name="msg555/comet_android_libcore" />
+  <project path="packages/apps/CometSettings"
+      name="msg555/comet_android_packages_apps_CometSettings" />
 
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -27,7 +34,6 @@
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="CyanogenMod/android_cts" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
@@ -229,7 +235,6 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
