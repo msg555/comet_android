@@ -1,7 +1,8 @@
 COMET
 =====
-This is the home of the COMET repository.  More instructions on how to get the
-source/build/operate to come.
+This is the home of the COMET repository.  Check
+[COMET instructions](http://www-personal.umich.edu/~msgsss/comet.html) for more
+information on how to download and build.
 
 CyanogenMod
 ===========
